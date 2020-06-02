@@ -13,8 +13,7 @@ export interface IPortDefaultProps {
 
 const PortDefaultOuter = styled.div`
   width: 24px;
-  height: 24px;
-  border-radius: 50%;
+  height: 240px;
   background: white;
   cursor: pointer;
   display: flex;
@@ -38,5 +37,6 @@ export const PortDefault = ({ isLinkSelected, isLinkHovered, config }: IPortDefa
     <PortDefaultInner
       active={!config.readonly && (isLinkSelected || isLinkHovered)}
     />
+ 
   </PortDefaultOuter>
 )

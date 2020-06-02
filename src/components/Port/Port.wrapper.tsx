@@ -137,6 +137,7 @@ export class PortWrapper extends React.Component<IPortWrapperProps> {
         ref={this.nodeRef}
         style={style}
       >
+        
         <Component
           config={config}
           port={port}

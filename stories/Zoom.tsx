@@ -40,7 +40,7 @@ export class Zoom extends React.Component {
     return (
       <Page>
         <Content>
-          <FlowChart chart={chart} callbacks={stateActions} />
+          <FlowChart  chart={chart} callbacks={stateActions} />
         </Content>
         <Sidebar>
           <Message>
